@@ -4,4 +4,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
+
+  def properties
+    @brand
+  end
 end
