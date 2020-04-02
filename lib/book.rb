@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count, :genre
   attr_reader :title
   def initialized(title)
-      @title=title
+      @title = title
     end
 
     def title
