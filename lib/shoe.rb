@@ -8,7 +8,7 @@ class Shoe
    def brand
      @brand
    end
-  def properties
-    @brand
+  def color=(color)
+    @color = color
   end
 end
